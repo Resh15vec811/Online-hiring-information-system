@@ -1,0 +1,85 @@
+<html>
+<head>
+</head>
+<body>
+<?php include 'db.php';?>
+<?php
+ 
+ 
+$choose=$_POST['choose'];
+
+ if($choose=='javabeginner')
+ {
+?>
+        <script>
+            window.location.href='javabeginner.php?success';
+        </script>
+<?php
+ }
+ if($choose=='javaintermediate')
+ {
+  ?>
+  <script>
+        window.location.href='javaintermediate.php?success';
+        </script>
+<?php
+ }
+if($choose=='javaadvanced')
+ {
+  ?>
+  <script>
+        window.location.href='javaadvanced.php?success';
+        </script>
+<?php
+  }  
+ if($choose=='phpbeginner')
+ {
+?>
+        <script>
+            window.location.href='phpbeginner.php?success';
+        </script>
+<?php
+ }
+ if($choose=='phpintermediate')
+ {
+  ?>
+  <script>
+        window.location.href='phpintermediate.php?success';
+        </script>
+<?php
+ }
+if($choose=='phpadvanced')
+ {
+  ?>
+  <script>
+        window.location.href='phpadvanced.php?success';
+        </script>
+<?php
+  } 
+  if($choose=='pythonbeginner')
+ {
+?>
+        <script>
+            window.location.href='pythonbeginner.php?success';
+        </script>
+<?php
+ }
+ if($choose=='pythonintermediate')
+ {
+  ?>
+  <script>
+        window.location.href='pythonintermediate.php?success';
+        </script>
+<?php
+ }
+if($choose=='pythonadvanced')
+ {
+  ?>
+  <script>
+        window.location.href='pythonadvanced.php?success';
+        </script>
+<?php
+  } 
+?>
+</body>
+</html>
